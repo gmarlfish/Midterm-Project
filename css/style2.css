@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+.wrapper {
+  width: 100%;
+}
+#navigate {
+  height: 70px;
+  width: 130px;
+  background-color: #81C784;
+  color: #000;
+  font-family: Raleway;
+  font-weight: bold;
+  position: fixed;
+  bottom: 15%;
+  right: 0px;
+}
+nav, section {
+  float: left;
+  text-align: left;
+}
+
+nav {
+  width: 20.83333%;
+  margin-right: 1.041667%;
+}
+
+section {
+  width: 78.125%;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #F57F17;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+header,
+nav,
+section {
+  border: 1px solid rgba(255,255,255,0.8);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+section {
+  font-size: 50px;
+  text-align: center;
+}
+header {
+  padding: 5px;
+  background-color: #fff;
+}
+
+nav, section {
+  padding: 200px 0;
+  background-color: #888;
+}
+table {
+  width: 10px;
+  height: 5px;
+  font-size: 15px;
+  color: #424242;
+}
+nav{
+
+}

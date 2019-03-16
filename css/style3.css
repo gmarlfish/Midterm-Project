@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  margin:0;
+  padding:0;
+  border:0;
+  background-image: url('data:image/svg+xml,%3Csvg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z" fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"/%3E%3C/svg%3E');
+  background-color: #EEEEEE;
+}
+header {
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+#navigate {
+  height: 70px;
+  width: 130px;
+  background-color: #81C784;
+  color: #000;
+  font-family: Raleway;
+  font-weight: bold;
+  position: fixed;
+  bottom: 15%;
+  right: 0px;
+}
+
+#content {
+  padding-top: 10px;
+  height: 1000px;
+  font-family: Lato;
+  color: #EF6C00
+}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
+}
+#links {
+  padding-top: 100px;
+}
+.row1 {
+ width: 100%;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-image: url('../img/america160x100.jpg');
+  float: left;
+  margin: 3px;
+  vertical-align: middle;
+}
+.row2 {
+ width: 100%;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-image: url('../img/memphis439x120.png');
+  float: left;
+  margin: 3px;
+
+}
+.row3 {
+ width: 100%;
+  height: 100px;
+  color: #FFEB3B;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-image: url('../img/una464x166.png');
+  float: left;
+  margin: 3px;
+}
+table {
+  width: 1350px;
+  height: 500px;
+  font-size: 20px;
+  color: #424242;
+  align-items: center;
+  padding: 10%;
+  margin: 160px;
+}
+th {
+  text-allign: left;
+}
+td{
+  background-color: #EF9A9A;
+}
+.pastAssignment{
+  background-color: #FFEB3B;
+}
+.gitHub{
+  background-color: #4CAF50;
+}
+.codePen{
+  background-color: #FF9800;
+}
+.w3c{
+  background-color: #4FC3F7;
+}
+.devDoc{
+  background-color: #9575CD;
+}
